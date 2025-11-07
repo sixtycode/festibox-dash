@@ -1,0 +1,7 @@
+body {
+  background-image: url("/bg-login.svg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  min-height: 100vh; /* Ensure the body takes full height */
+}
