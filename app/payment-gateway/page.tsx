@@ -11,7 +11,7 @@ export default function PaymentGateway() {
       </div>
 
       <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-        <form action="#" method="POST" className="space-y-6">
+        <form action="/dash" method="POST" className="space-y-6">
           <div>
             <label className="text-sm/6 font-medium text-gray-900 block">
               Email address

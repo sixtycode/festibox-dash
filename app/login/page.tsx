@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Login() {
   return (
     <div className="px-6 py-12 lg:px-8 flex min-h-full flex-col justify-center">
@@ -11,7 +13,7 @@ export default function Login() {
       </div>
 
       <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-        <form action="#" method="POST" className="space-y-6">
+        <form action="/dash" method="POST" className="space-y-6">
           <div>
             <label className="text-sm/6 font-medium text-gray-900 block">
               Email address
@@ -49,10 +51,10 @@ export default function Login() {
 
           <div>
             <button
-              type="submit"
               className="rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold shadow-sm text-white flex w-full justify-center focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+              type="submit"
             >
-              Sign in
+              <Link href="/dash">Sign in</Link>
             </button>
           </div>
         </form>

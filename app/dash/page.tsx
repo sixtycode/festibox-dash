@@ -27,7 +27,7 @@ export default function Dash() {
             <li className="px-6 py-3 relative">
               <Link
                 className="text-sm font-semibold hover:text-gray-800 inline-flex w-full items-center transition-colors duration-150"
-                href=""
+                href="/frames"
               >
                 <span className="ml-4">Frames</span>
               </Link>
@@ -35,7 +35,7 @@ export default function Dash() {
             <li className="px-6 py-3 relative">
               <Link
                 className="text-sm font-semibold hover:text-gray-800 inline-flex w-full items-center transition-colors duration-150"
-                href="cards.html"
+                href="/booths"
               >
                 <span className="ml-4">Booths</span>
               </Link>
@@ -43,7 +43,7 @@ export default function Dash() {
             <li className="px-6 py-3 relative">
               <Link
                 className="text-sm font-semibold hover:text-gray-800 inline-flex w-full items-center transition-colors duration-150"
-                href="buttons.html"
+                href="/filter"
               >
                 <span className="ml-4">Photo Filter</span>
               </Link>
@@ -51,7 +51,7 @@ export default function Dash() {
             <li className="px-6 py-3 relative">
               <Link
                 className="text-sm font-semibold hover:text-gray-800 inline-flex w-full items-center transition-colors duration-150"
-                href="modals.html"
+                href="/vouchers"
               >
                 <span className="ml-4">Vouchers</span>
               </Link>
@@ -59,7 +59,7 @@ export default function Dash() {
             <li className="px-6 py-3 relative">
               <Link
                 className="text-sm font-semibold hover:text-gray-800 inline-flex w-full items-center transition-colors duration-150"
-                href="tables.html"
+                href="/transactions"
               >
                 <span className="ml-4">Transactions</span>
               </Link>
@@ -73,6 +73,30 @@ export default function Dash() {
                   <span className="ml-4">Soft Files</span>
                 </span>
               </button>
+            </li>
+            <li className="px-6 py-3 relative">
+              <Link
+                className="text-sm font-semibold hover:text-gray-800 inline-flex w-full items-center transition-colors duration-150"
+                href="/payment-gateway"
+              >
+                <span className="ml-4">Payment Gateway</span>
+              </Link>
+            </li>
+            <li className="px-6 py-3 relative">
+              <Link
+                className="text-sm font-semibold hover:text-gray-800 inline-flex w-full items-center transition-colors duration-150"
+                href="/video-idle-screen"
+              >
+                <span className="ml-4">Video Idle Screen</span>
+              </Link>
+            </li>
+            <li className="px-6 py-3 relative">
+              <Link
+                className="text-sm font-semibold hover:text-gray-800 inline-flex w-full items-center transition-colors duration-150"
+                href="/users"
+              >
+                <span className="ml-4">Settings</span>
+              </Link>
             </li>
           </ul>
         </div>
